@@ -16,10 +16,19 @@
       }
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "ios": {
+        "autoSigningAllowed": true
+      }
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "appleId": "panchalpavan800@gmail.com",
+        "ascAppId": "YOUR_APP_STORE_CONNECT_APP_ID",
+        "appleTeamId": "YOUR_TEAM_ID"
+      }
+    }
   }
 }
