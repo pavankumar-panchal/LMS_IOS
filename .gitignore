@@ -1,0 +1,16 @@
+# JS
+node_modules/
+web/dist/
+
+# iOS build artifacts
+ios/build/
+ios/Pods/
+ios/DerivedData/
+ios/*.xcworkspace/xcuserdata/
+*.ipa
+*.dSYM.zip
+
+# Misc
+.DS_Store
+*.log
+.env
