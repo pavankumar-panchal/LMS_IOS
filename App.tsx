@@ -33,7 +33,7 @@ class ErrorBoundary extends React.Component<
 export default function App() {
   return (
     <ErrorBoundary>
-      <GestureHandlerRootView style={{ flex: 1, height: '100%' }}>
+      <GestureHandlerRootView style={{ flex: 1, width: '100%', height: '100%', backgroundColor: '#0f172a' }}>
         <SafeAreaProvider>
           <ThemeProvider>
             <AuthProvider>

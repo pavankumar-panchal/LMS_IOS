@@ -37,7 +37,7 @@ export default function LoginScreen() {
       {/* Background Decor */}
       <View style={[s.glow, { backgroundColor: theme.primary + "08" }]} />
       
-      <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
+      <ScrollView contentContainerStyle={[s.scroll, { backgroundColor: theme.bg }]} style={{ backgroundColor: theme.bg }} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
         
         {/* Header Section */}
         <View style={s.header}>

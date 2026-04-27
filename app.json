@@ -1,4 +1,34 @@
 {
-  "name": "RelyonLMS",
-  "displayName": "Relyon LMS"
+  "expo": {
+    "name": "Relyon LMS",
+    "slug": "relyon-lms",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.relyonsoft.lmspro",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.relyonsoft.lmspro"
+    },
+    "newArchEnabled": false,
+    "extra": {
+      "eas": {
+        "projectId": "af0f6c5c-977d-42e0-8884-10063b53a2b1"
+      }
+    },
+    "owner": "smogking"
+  }
 }
